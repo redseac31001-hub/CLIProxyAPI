@@ -47,6 +47,11 @@ GEMINI.md
 _bmad/*
 _bmad-output/*
 
+# Local runtime data
+/.cli-proxy-api/
+/Library/
+/go/
+
 # macOS
 .DS_Store
 ._*
