@@ -2,6 +2,11 @@
 cli-proxy-api
 *.exe
 
+# Go build/test artifacts
+*.test
+*.out
+*.prof
+
 # Configuration
 config.yaml
 .env
@@ -49,7 +54,14 @@ GEMINI.md
 _bmad/*
 _bmad-output/*
 
+# Local run directory
+.codex-run/
+
 # macOS
 .DS_Store
 ._*
 .gocache/
+
+# Windows
+Thumbs.db
+Desktop.ini
